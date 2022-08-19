@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <TItle>Formulários</TItle>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+<body>
+    <header class="cabecalho">
+        Cabeçalho
+    </header>
+    <form class="form">
+        <div>
+            <label for="nome" class="label">Nome:</label>
+            <input class="input" type="text" id="nome" placeholder="Ex.: Maria Oliveira">
+        </div>
+        <div>
+            <label for="email" class="label">Email:</label>
+            <input class="input" type="email" id="email" placeholder="Ex.: maria@gmail.com">
+        </div>
+        <div>
+            <label class="label">Sexo: </label>
+            <input type="radio" name="sexo" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="masc">Feminino</label>
+        </div>
+        <div>
+            <label for="curso" class="label">CUrso: </label>
+            <select>
+                <option>HTML e CSS</option>
+                <option>JavaScript</option>
+                <option>GIT</option>
+                <option>Node</option>
+            </select>
+        </div>
+        <div>
+            <label class="label" for="atendimento">Descreva o atendimento especial</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</html>
